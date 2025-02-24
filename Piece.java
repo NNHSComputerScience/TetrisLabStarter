@@ -10,8 +10,8 @@ import java.util.StringTokenizer;
  * Each piece is defined by the blocks that make up its body.
  * See the lab document for an overview.
  * 
- * @author Nick Parlante
- * @version    1.0, Mar 1, 2001
+ * @author 
+ * @version 
  */
 public final class Piece {
     /*
@@ -42,7 +42,7 @@ public final class Piece {
      */
     private Piece(Point[] points)
     {
-        // initialize next to null; it will be initialized in the pieceRow method
+        // initialize this.next to null; it will be initialized in the pieceRow method
         this.next = null;
         
         // TODO: copy the points array and copy the Point elements in the array
@@ -58,7 +58,7 @@ public final class Piece {
         // TODO: initialize the height instance variable with the height of the piece
         
         // TODO: initialize the skirt instance variable
-        //  Note: carefully read and description of the skirt in the lab document;
+        //  Note: carefully read the description of the skirt in the lab document;
         //      this is the most challenging algorithm in this constructor
         
         // skirt psuedocode
